@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jamrizwan876.github.io/Rizwan-Digital-Studio/sitemap.xml
