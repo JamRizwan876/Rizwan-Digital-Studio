@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Rizwan Digital Studio</title>
+    <meta name="description" content="Contact Rizwan Digital Studio for professional website development, e-commerce websites and SEO services.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">Rizwan<span>Digital</span></a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="contact-section">
+    <div class="section-heading">
+        <span>GET IN TOUCH</span>
+        <h1>Let's Build Your Website</h1>
+        <p>Tell us about your project. We will contact you soon.</p>
+    </div>
+
+    <div class="contact-layout">
+
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Have a project in mind? Let's discuss it.</p>
+
+            <div class="contact-detail">
+                <h3>Email</h3>
+                <a href="mailto:jamrizwan749@gmail.com">
+                    jamrizwan749@gmail.com
+                </a>
+            </div>
+
+            <div class="contact-detail">
+                <h3>WhatsApp</h3>
+                <a href="https://wa.me/923294705876" target="_blank">
+                    0329 4705876
+                </a>
+            </div>
+
+            <div class="contact-detail">
+                <h3>Brand</h3>
+                <p>Rizwan Digital Studio</p>
+            </div>
+        </div>
+
+        <form class="contact-form" id="orderForm">
+
+            <h2>Send Your Project Details</h2>
+
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Website Type</label>
+                <select id="service" name="service" required>
+                    <option value="">Select Website Type</option>
+                    <option value="Business Website">Business Website</option>
+                    <option value="E-commerce Website">E-commerce Website</option>
+                    <option value="Restaurant Website">Restaurant Website</option>
+                    <option value="Travel Website">Travel Website</option>
+                    <option value="Portfolio Website">Portfolio Website</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="budget">Your Budget</label>
+                <select id="budget" name="budget" required>
+                    <option value="">Select Your Budget</option>
+                    <option value="Under Rs. 15,000">Under Rs. 15,000</option>
+                    <option value="Rs. 15,000 - 30,000">Rs. 15,000 - 30,000</option>
+                    <option value="Rs. 30,000 - 60,000">Rs. 30,000 - 60,000</option>
+                    <option value="Rs. 60,000+">Rs. 60,000+</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Project Details</label>
+                <textarea id="message" name="message"
+                          rows="5"
+                          placeholder="Describe your website project..."
+                          required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Send Order on WhatsApp
+            </button>
+
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© <span id="year"></span> Rizwan Digital Studio. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
